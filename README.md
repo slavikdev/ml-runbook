@@ -1,6 +1,6 @@
 # ML Runbook
 
-Collection of solutions for common ML problems. Contributions welcome :)
+Collection of solutions for common ML problems. Contributions are welcome :)
 
 ## Dataset
 

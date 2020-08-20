@@ -10,7 +10,7 @@ Collection of solutions for common ML problems. Contributions are welcome :)
 - If the features are good enough for prediciton and a human expert can do manual estimation based on them.
 - If the algorithm has many parameters and can represent fairly complex functions.
 
-## High Variance (overfitting)
+## High variance (overfitting)
 
 Your model is performing very well on the training set, but poorly on the test set.
 
@@ -25,7 +25,7 @@ Your model is performing very well on the training set, but poorly on the test s
 - Try decreasing the parameter `C` (1/lambda).
 - Try increasing the parameter `sigma^2`.
 
-## High Bias (underfitting)
+## High bias (underfitting)
 
 Your model performs poorly on both training and test sets.
 

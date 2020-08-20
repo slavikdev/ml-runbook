@@ -40,10 +40,22 @@ Your model performs poorly on both training and test sets.
 - Try increasing the parameter `C` (1/lambda).
 - Try decreasing the parameter `sigma^2`.
 
-## Choosing the right classifier
+## Choosing the right approach
 
 ### Logistic regression vs SVM
 
 - If the number of features is large (relative to the number of examples), use either logistic regression or SVM without a kernel.
 - If the number of features is small and the number of examples is intermediate (up to 10K), use SVM with Gaussian kernel.
 - If the number of features is small, but the number of examples is large (over 10k), create/add more features, then use logistic regression or SVM without a kernel.
+
+### Anomaly detection vs supervised learning
+
+When to use anomaly detection algorithm (e.g. Gaussian distribution):
+
+- You expect a very small number of anomalies (up to 20) and a large number of non-anomalous examples.
+- You expect different types of anomalies and future anomalies may look like nothing you’ve seen so far.
+
+When to use supervised learning:
+
+- You expect a relatively large number of anomalies.
+- Future examples are likely to be similar to the ones in the training set.

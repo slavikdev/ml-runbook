@@ -4,7 +4,7 @@ Collection of solutions for common ML problems. Contributions are welcome :)
 
 ## Dataset
 
-### When to use large dataset
+### When to use a large dataset
 
 - If you have high variance (overfitting).
 - If the features are good enough for prediciton and a human expert can do manual estimation based on them.

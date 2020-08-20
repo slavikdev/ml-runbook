@@ -40,7 +40,7 @@ Your model performs poorly on both training and test sets.
 - Try increasing the parameter `C` (1/lambda).
 - Try decreasing the parameter `sigma^2`.
 
-## Choosing the right approach
+## Choosing the right algorithm
 
 ### Logistic regression vs SVM
 
